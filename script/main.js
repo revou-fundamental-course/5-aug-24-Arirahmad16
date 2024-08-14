@@ -3,7 +3,7 @@ function hitungbmi() {
             var tinggi = $("#bmiHeight").val()/100;
             var umur = $("#bmiAge").val();
             if (umur < 18) {
-                mscAlert("Informasi !", "Kalkulator hanya untuk 18 tahun ke atas ya kaa :)");
+                mscAlert("Informasi !", "Kalkulator ini hanya bisa di gunakan untuk 18 tahun ke atas ya kaa 😁");
             } else {
                 var bmi = berat / (tinggi * tinggi);
                 document.getElementById("contenthasil").style.display = "block";
